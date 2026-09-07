@@ -86,12 +86,14 @@
             // pnlMenu
             // 
             pnlMenu.Anchor = AnchorStyles.None;
-            pnlMenu.BackColor = SystemColors.ControlDark;
+            pnlMenu.AutoSize = true;
+            pnlMenu.BackColor = Color.Transparent;
+            pnlMenu.BackgroundImageLayout = ImageLayout.None;
             pnlMenu.Controls.Add(label2);
             pnlMenu.Controls.Add(button3);
             pnlMenu.Controls.Add(button1);
             pnlMenu.Controls.Add(button2);
-            pnlMenu.Location = new Point(195, 12);
+            pnlMenu.Location = new Point(209, 12);
             pnlMenu.Name = "pnlMenu";
             pnlMenu.Size = new Size(417, 450);
             pnlMenu.TabIndex = 5;
