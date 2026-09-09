@@ -41,47 +41,55 @@
             // label1
             // 
             label1.AutoSize = true;
-            label1.Location = new Point(292, 39);
+            label1.Location = new Point(375, 55);
+            label1.Margin = new Padding(4, 0, 4, 0);
             label1.Name = "label1";
-            label1.Size = new Size(0, 15);
+            label1.Size = new Size(0, 21);
             label1.TabIndex = 0;
             // 
             // label2
             // 
             label2.AutoSize = true;
             label2.Font = new Font("Segoe UI", 20F);
-            label2.Location = new Point(106, 28);
+            label2.Location = new Point(136, 39);
+            label2.Margin = new Padding(4, 0, 4, 0);
             label2.Name = "label2";
-            label2.Size = new Size(226, 37);
+            label2.Size = new Size(283, 46);
             label2.TabIndex = 1;
             label2.Text = "MENU PRINCIPAL";
             // 
             // button1
             // 
-            button1.Location = new Point(126, 113);
+            button1.Location = new Point(162, 158);
+            button1.Margin = new Padding(4, 4, 4, 4);
             button1.Name = "button1";
-            button1.Size = new Size(181, 66);
+            button1.Size = new Size(233, 92);
             button1.TabIndex = 2;
             button1.Text = "ENTRENAR";
             button1.UseVisualStyleBackColor = true;
+            button1.Click += button1_Click;
             // 
             // button2
             // 
-            button2.Location = new Point(126, 226);
+            button2.Location = new Point(162, 316);
+            button2.Margin = new Padding(4, 4, 4, 4);
             button2.Name = "button2";
-            button2.Size = new Size(181, 66);
+            button2.Size = new Size(233, 92);
             button2.TabIndex = 3;
             button2.Text = "JUGAR CON ENTRENAMIENTO";
             button2.UseVisualStyleBackColor = true;
+            button2.Click += button2_Click;
             // 
             // button3
             // 
-            button3.Location = new Point(126, 333);
+            button3.Location = new Point(162, 466);
+            button3.Margin = new Padding(4, 4, 4, 4);
             button3.Name = "button3";
-            button3.Size = new Size(181, 66);
+            button3.Size = new Size(233, 92);
             button3.TabIndex = 4;
             button3.Text = "MOSTRAR APRENDIZAJE";
             button3.UseVisualStyleBackColor = true;
+            button3.Click += button3_Click;
             // 
             // pnlMenu
             // 
@@ -93,20 +101,22 @@
             pnlMenu.Controls.Add(button3);
             pnlMenu.Controls.Add(button1);
             pnlMenu.Controls.Add(button2);
-            pnlMenu.Location = new Point(209, 12);
+            pnlMenu.Location = new Point(269, 17);
+            pnlMenu.Margin = new Padding(4, 4, 4, 4);
             pnlMenu.Name = "pnlMenu";
-            pnlMenu.Size = new Size(417, 450);
+            pnlMenu.Size = new Size(536, 630);
             pnlMenu.TabIndex = 5;
             // 
             // Form1
             // 
-            AutoScaleDimensions = new SizeF(7F, 15F);
+            AutoScaleDimensions = new SizeF(9F, 21F);
             AutoScaleMode = AutoScaleMode.Font;
             BackgroundImage = (Image)resources.GetObject("$this.BackgroundImage");
             BackgroundImageLayout = ImageLayout.Stretch;
-            ClientSize = new Size(838, 524);
+            ClientSize = new Size(1077, 734);
             Controls.Add(pnlMenu);
             Controls.Add(label1);
+            Margin = new Padding(4, 4, 4, 4);
             Name = "Form1";
             Text = "Form1";
             pnlMenu.ResumeLayout(false);
