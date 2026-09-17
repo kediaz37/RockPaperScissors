@@ -15,6 +15,16 @@ namespace rpsai
             InitializeComponent();
         }
 
+        protected override void OnResize(EventArgs e)
+        {
+            base.OnResize(e);
+            if (pnlMenu != null)
+            {
+                pnlMenu.Left = (this.ClientSize.Width - pnlMenu.Width) / 2;
+                pnlMenu.Top = (this.ClientSize.Height - pnlMenu.Height) / 2;
+            }
+        }
+
         // Boton de entrenar
         private void button1_Click(object sender, EventArgs e)
         {

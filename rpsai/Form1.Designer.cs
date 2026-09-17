@@ -1,4 +1,4 @@
-﻿namespace rpsai
+namespace rpsai
 {
     partial class Form1
     {
@@ -51,7 +51,7 @@
             // 
             label2.AutoSize = true;
             label2.Font = new Font("Segoe UI", 20F);
-            label2.Location = new Point(136, 39);
+            label2.Location = new Point(139, 49);
             label2.Margin = new Padding(4, 0, 4, 0);
             label2.Name = "label2";
             label2.Size = new Size(283, 46);
@@ -61,7 +61,7 @@
             // button1
             // 
             button1.Location = new Point(162, 158);
-            button1.Margin = new Padding(4, 4, 4, 4);
+            button1.Margin = new Padding(4);
             button1.Name = "button1";
             button1.Size = new Size(233, 92);
             button1.TabIndex = 2;
@@ -72,7 +72,7 @@
             // button2
             // 
             button2.Location = new Point(162, 316);
-            button2.Margin = new Padding(4, 4, 4, 4);
+            button2.Margin = new Padding(4);
             button2.Name = "button2";
             button2.Size = new Size(233, 92);
             button2.TabIndex = 3;
@@ -83,7 +83,7 @@
             // button3
             // 
             button3.Location = new Point(162, 466);
-            button3.Margin = new Padding(4, 4, 4, 4);
+            button3.Margin = new Padding(4);
             button3.Name = "button3";
             button3.Size = new Size(233, 92);
             button3.TabIndex = 4;
@@ -102,7 +102,7 @@
             pnlMenu.Controls.Add(button1);
             pnlMenu.Controls.Add(button2);
             pnlMenu.Location = new Point(269, 17);
-            pnlMenu.Margin = new Padding(4, 4, 4, 4);
+            pnlMenu.Margin = new Padding(4);
             pnlMenu.Name = "pnlMenu";
             pnlMenu.Size = new Size(536, 630);
             pnlMenu.TabIndex = 5;
@@ -116,9 +116,10 @@
             ClientSize = new Size(1077, 734);
             Controls.Add(pnlMenu);
             Controls.Add(label1);
-            Margin = new Padding(4, 4, 4, 4);
+            Margin = new Padding(4);
             Name = "Form1";
             Text = "Form1";
+            WindowState = FormWindowState.Maximized;
             pnlMenu.ResumeLayout(false);
             pnlMenu.PerformLayout();
             ResumeLayout(false);
